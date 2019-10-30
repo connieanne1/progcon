@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="All in One"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-30 11:24:00 AM"/>
+        <attribute name="created" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTMwOzA5OjU4OjQyIEFNOzI5MDk="/>
+        <attribute name="edited" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTMwOzExOjI0OjAwIEFNOzE7Mjk5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pizza" type="Integer" array="False" size=""/>
+            <declare name="slice" type="Integer" array="False" size=""/>
+            <output expression="&quot;how many pizza could you order?&quot;" newline="True"/>
+            <input variable="pizza"/>
+            <output expression="&quot;how many slice could you eat?&quot;" newline="True"/>
+            <input variable="slice"/>
+            <if expression="slice = 1">
+                <then>
+                    <output expression="&quot;you are health concious&quot;" newline="True"/>
+                </then>
+                <else>
+                    <declare name="half" type="Integer" array="False" size=""/>
+                    <output expression="&quot;how many half of pizza could you eat?&quot;" newline="True"/>
+                    <input variable="half"/>
+                    <if expression="half &gt;= 1">
+                        <then>
+                            <output expression="&quot;you like pizza&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;you don't like pizza&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
