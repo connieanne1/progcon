@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="All in One"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-29 05:24:42 PM"/>
+        <attribute name="created" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTI5OzA0OjUxOjA4IFBNOzI5MjI="/>
+        <attribute name="edited" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTEwLTI5OzA1OjI0OjQyIFBNOzI7MzAzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="myNum1" type="Integer" array="False" size=""/>
+            <declare name="myNum2" type="Integer" array="False" size=""/>
+            <declare name="myAnswer" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter myNum1&quot;" newline="True"/>
+            <input variable="myNum1"/>
+            <output expression="&quot;enter myNum2&quot;" newline="True"/>
+            <input variable="myNum2"/>
+            <assign variable="myAnswer" expression="myNum1 + myNum2"/>
+            <output expression="&quot;myAnswer for 2 numbers&quot; &amp; myAnswer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
