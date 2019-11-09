@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="All in One"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-09 08:18:04 AM"/>
+        <attribute name="created" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTExLTA5OzA4OjA4OjMyIEFNOzI5MDk="/>
+        <attribute name="edited" value="QWxsIGluIE9uZTtBTExJTk9ORS1QQzsyMDE5LTExLTA5OzA4OjE4OjA0IEFNOzE7MzAxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="elevator" type="Integer" array="False" size=""/>
+            <output expression="&quot;There is an elevator in a building 1 and 2&quot;" newline="True"/>
+            <output expression="&quot;where do you want to enter?&quot;" newline="True"/>
+            <input variable="elevator"/>
+            <if expression="elevator = 1">
+                <then>
+                    <output expression="&quot;Print Odd&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Print Even&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
