@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-09 06:36:47 PM"/>
+        <attribute name="created" value="YWRtaW47REVTS1RPUC0yRzBGQ0VPOzIwMTktMTItMDg7MDY6NTU6NTYgUE07Mjg1Mg=="/>
+        <attribute name="edited" value="YWRtaW47REVTS1RPUC0yRzBGQ0VPOzIwMTktMTItMDk7MDY6MzY6NDcgUE07NjsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Rates" type="Integer" array="False" size=""/>
+            <output expression="&quot;Teacher is preparing a grades for her students.&quot;" newline="True"/>
+            <output expression="&quot;She wants to know how many students will passed the test.&quot;" newline="True"/>
+            <output expression="&quot;What rates of a student?&quot;" newline="True"/>
+            <input variable="Rates"/>
+            <if expression="Rates &gt;= 95">
+                <then>
+                    <output expression="&quot;Print 4.0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Rates &gt;= 91">
+                        <then>
+                            <output expression="&quot;Print 3.5&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Rates &gt;=87">
+                                <then>
+                                    <output expression="&quot;Print 3.0&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="Rates &gt;=83">
+                                        <then>
+                                            <output expression="&quot;Print 2.5&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="Rates &gt;=79">
+                                                <then>
+                                                    <output expression="&quot;Print 2.0&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="Rates &gt;=75">
+                                                        <then>
+                                                            <output expression="&quot;Print 1.5&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="Rates &gt;=70">
+                                                                <then>
+                                                                    <output expression="&quot;Print 1.0&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="Rates &lt;70">
+                                                                        <then>
+                                                                            <output expression="&quot;Print R&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
