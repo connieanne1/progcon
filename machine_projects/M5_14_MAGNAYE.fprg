@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-10 08:14:11 AM"/>
+        <attribute name="created" value="YWRtaW47REVTS1RPUC0yRzBGQ0VPOzIwMTktMTItMTA7MDc6MzQ6MDQgQU07MjgyMQ=="/>
+        <attribute name="edited" value="YWRtaW47REVTS1RPUC0yRzBGQ0VPOzIwMTktMTItMTA7MDg6MTQ6MTEgQU07MTsyOTI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="num3" type="Integer" array="False" size=""/>
+            <output expression="&quot;num1, num2, num3&quot;" newline="True"/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="num3"/>
+            <if expression="num1 &lt; num2">
+                <then>
+                    <if expression="num1 &lt; num3">
+                        <then>
+                            <output expression="&quot;Print num1 as the least number&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Print num3 as the least number&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num2 &lt; num3">
+                        <then>
+                            <output expression="&quot;Print num2 as the least number&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Print num3 as the least number&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
